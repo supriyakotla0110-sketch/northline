@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Turn Your Ideas into Powerful Digital Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="room" aria-hidden="true">
+    <div class="ceiling-light"></div>
+    <div class="slats left"></div>
+    <div class="slats right"></div>
+    <div class="desk"></div>
+  </div>
+
+  <header class="topbar">
+    <div class="brand"><span class="dot"></span> Northline</div>
+    <nav>
+      <a href="#websites">Websites</a>
+      <a href="#marketing">Marketing</a>
+      <a href="#apps">Apps</a>
+      <a href="#software">Software</a>
+      <a href="#design">Design</a>
+    </nav>
+    <button class="ghost" id="replay" type="button">Replay</button>
+  </header>
+
+  <main class="stage" id="stage">
+    <section class="scene active" data-scene="hero" id="hero">
+      <div class="intro">
+        <p class="eyebrow">Northline</p>
+        <h1>One studio.</h1>
+        <p class="lede">Sites. Apps. Software.</p>
+        <div class="intro-actions">
+          <button class="pill" id="start" type="button">Start a project</button>
+          <button class="ghost" id="onward" type="button">See the work</button>
+        </div>
+        <div class="slabs">
+          <article class="slab"><b>Web</b><span>Pages</span></article>
+          <article class="slab mid"><b>App</b><span>Daily</span></article>
+          <article class="slab"><b>Mark</b><span>The week</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene" data-scene="network" id="network">
+      <canvas id="net"></canvas>
+      <div class="center-copy">
+        <p class="kicker">Northline</p>
+        <h2>One roof.</h2>
+        <ul class="package">
+          <li>Websites</li>
+          <li>Apps</li>
+          <li>Software</li>
+          <li>Design</li>
+          <li>Marketing</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="scene" data-scene="websites" id="websites">
+      <h2 class="scene-label">WEBSITES</h2>
+      <article class="panel site-panel main-panel">
+        <header>Heritage Solution</header>
+        <div class="hero-shot">
+          <div class="shot-page">
+            <div class="shot-nav"><b>Northline</b><span>Work</span><span>Visit</span></div>
+            <strong>Sites that launch</strong>
+            <div class="shot-grid">
+              <div><b>12</b><span>live sites</span></div>
+              <div><b>4</b><span>apps shipping</span></div>
+            </div>
+          </div>
+        </div>
+        <h3>Our Solution. <span>Practical digital work.</span></h3>
+        <div class="thumbs">
+          <i><em>Home</em><b>We build</b><span></span><span></span></i>
+          <i><em>Work</em><b>6 cases</b><span></span><span></span></i>
+          <i><em>Visit</em><b>Book a call</b><span></span><span></span></i>
+        </div>
+      </article>
+      <article class="panel site-panel back left-panel">
+        <header>Case study</header>
+        <p>Brand, pages, and a launch plan.</p>
+        <div class="mini-bars"><span></span><span></span><span></span></div>
+      </article>
+      <article class="panel site-panel back right-panel">
+        <header>Product</header>
+        <p>Fast. Clear. Built to convert.</p>
+        <div class="mini-row"><b>24k</b><span>visits</span></div>
+      </article>
+    </section>
+
+    <section class="scene" data-scene="marketing" id="marketing">
+      <article class="panel dash">
+        <header class="dash-head">
+          <span class="traffic"><i></i><i></i><i></i></span>
+          MARKETING
+        </header>
+        <div class="dash-grid">
+          <div class="card wide">
+            <div class="card-title">Analytics</div>
+            <svg viewBox="0 0 280 110" class="chart">
+              <polyline points="8,88 40,78 70,82 100,60 130,66 160,42 190,48 220,28 250,22 272,14" />
+              <polyline class="fill" points="8,88 40,78 70,82 100,60 130,66 160,42 190,48 220,28 250,22 272,14 272,108 8,108" />
+            </svg>
+          </div>
+          <div class="card">
+            <div class="card-title">Campaign</div>
+            <div class="bars"><span style="--h:46%"></span><span style="--h:62%"></span><span style="--h:54%"></span><span style="--h:78%"></span><span style="--h:70%"></span><span style="--h:92%"></span></div>
+          </div>
+          <div class="card ring-card">
+            <div class="card-title">Reach</div>
+            <div class="ring"><b>68%</b></div>
+          </div>
+          <div class="card list">
+            <div class="row"><em>Search</em><strong>24.8k</strong></div>
+            <div class="row"><em>Social</em><strong>18.1k</strong></div>
+            <div class="row"><em>Email</em><strong>9.4k</strong></div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="scene" data-scene="apps" id="apps">
+      <h2 class="scene-label">APPS</h2>
+      <div class="phone">
+        <div class="notch"></div>
+        <div class="screen">
+          <div class="status"><span>9:41</span><span>5G</span></div>
+          <div class="widgets">
+            <div class="widget weather"><small>Northline</small><b>28°</b><span>Clear</span></div>
+            <div class="widget focus"><small>Focus</small><b>30M</b><span>Deep work</span></div>
+          </div>
+          <div class="apps">
+            <i class="a1">Mail</i><i class="a2">Cam</i><i class="a3">Map</i><i class="a4">Cal</i>
+            <i class="a5">Note</i><i class="a6">Pics</i><i class="a7">Clock</i><i class="a8">Pay</i>
+            <i class="a9">Fit</i><i class="a10">Home</i><i class="a11">Files</i><i class="a12">Set</i>
+          </div>
+          <div class="dock"><i class="a3">Map</i><i class="a6">Pics</i><i class="a9">Fit</i><i class="a1">Mail</i></div>
+        </div>
+      </div>
+      <div class="ghost-screen g1"><b>Orders</b><span>12 due before 5</span><em>Asha · 2 loaves</em></div>
+      <div class="ghost-screen g2"><b>Messages</b><span>Is the rye nut-free?</span><em>Yes. Separate tin.</em></div>
+      <div class="ghost-screen g3"><b>This week</b><span>86 orders</span><em>+12% returning</em></div>
+    </section>
+
+    <section class="scene" data-scene="software" id="software">
+      <h2 class="scene-label slim">SOFTWARE</h2>
+      <div class="soft-board">
+        <article class="panel code">
+          <header>Search Analytics</header>
+          <pre><span class="c">// pipeline</span>
+fn route(event) {
+  <span class="k">if</span> event.ready {
+    emit(<span class="s">"grow"</span>)
+  }
+  return score
+}</pre>
+        </article>
+        <article class="panel flow">
+          <header>Functions</header>
+          <div class="nodes">
+            <span>Capture</span>
+            <span class="hot">Score</span>
+            <span>Ship</span>
+            <span>Measure</span>
+          </div>
+          <svg viewBox="0 0 220 140" class="wires">
+            <path d="M30 30 C 80 30, 70 70, 110 70 S 160 110, 190 100" />
+            <path d="M40 100 C 90 90, 120 40, 180 36" />
+          </svg>
+        </article>
+        <article class="panel code side">
+          <header>Deploy</header>
+          <pre>build: ok
+tests: 128
+latency: 42ms
+region: syd-1</pre>
+          <div class="spark"></div>
+        </article>
+        <div class="metric"><b>32%</b><span>faster release</span></div>
+      </div>
+    </section>
+
+    <section class="scene" data-scene="grow" id="design">
+      <div class="burst"></div>
+      <div class="stack-words">
+        <span>DESIGN</span>
+        <span>DEVELOP</span>
+        <span>GROW</span>
+      </div>
+      <article class="orbit o1 panel mini"><div class="bars tiny"><span></span><span></span><span></span><span></span></div></article>
+      <article class="orbit o2 panel mini"><div class="ring sm"><b>41</b></div></article>
+      <article class="orbit o3 panel mini site-bit"><b>Site</b><span>12 pages live</span></article>
+      <article class="orbit o4 panel mini"><b>Growth</b><div class="chart-line"></div></article>
+      <article class="orbit o5 phone-bit"><b>9:41</b><span>4 new</span></article>
+    </section>
+
+    <section class="scene" data-scene="close" id="close">
+      <canvas id="net2"></canvas>
+      <div class="holo">
+        <div class="holo-screen"><b>Visits</b><strong>24.8k</strong><i></i></div>
+        <div class="holo-screen"><b>Leads</b><strong>128</strong><i></i></div>
+        <div class="pedestal"></div>
+      </div>
+      <div class="cta">
+        <p class="kicker">A project</p>
+        <h2>Your name.</h2>
+        <form id="lead" class="lead">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <button type="submit">Send</button>
+          <p class="thanks" hidden>Got it. We'll be in touch.</p>
+        </form>
+        <button class="ghost" id="keep" type="button">See the work</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="scrub">
+    <button id="prev" type="button" aria-label="Previous scene">‹</button>
+    <div class="track" id="track" role="slider" aria-valuemin="0" aria-valuemax="7" aria-valuenow="0" tabindex="0">
+      <div class="fill" id="fill"></div>
+    </div>
+    <span id="clock">0:00 / 0:19</span>
+    <button id="next" type="button" aria-label="Next scene">›</button>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
